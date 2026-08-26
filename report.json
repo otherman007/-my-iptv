@@ -1,3 +1,16 @@
 {
-  "generated_channels": 0
+  "generated_channels": 67,
+  "counts": {
+    "卫视": 4,
+    "港澳台": 35,
+    "体育": 8,
+    "影视": 20
+  },
+  "source_stats": {
+    "Akira精选频道": {
+      "parsed": 133,
+      "error": ""
+    }
+  },
+  "note": "测速发生在 GitHub Actions 机房，与你家宽带的实际延迟可能不同。"
 }
