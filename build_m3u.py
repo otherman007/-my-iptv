@@ -21,7 +21,7 @@ def decode_bytes(data):
             continue
     return data.decode("utf-8", errors="ignore")
 
-def parse_m3u(text, source, priority):
+def parse_m3u(text, source, priority, skip_probe=False):
     lines = [x.strip() for x in text.replace("\r","").split("\n")]
     result, info = [], None
     for line in lines:
@@ -38,6 +38,7 @@ def parse_m3u(text, source, priority):
                 "orig_group": attrs.get("group-title",""),
                 "source": source,
                 "priority": priority,
+                "skip_probe": skip_probe,
             })
             info = None
     return result
@@ -53,9 +54,12 @@ def normalize_name(name):
 
 def classify(ch):
     hay = f'{ch["name"]} {ch.get("orig_group","")}'.upper()
-    # 体育优先，防止“纬来体育”被先分到港澳台
-    order = ["体育","央视","卫视","港澳台","影视"]
     cats = CFG["categories"]
+    # 央视频道（包括 CCTV-5）统一归到“央视”；其余体育频道仍优先识别。
+    for kw in cats.get("央视", []):
+        if kw.upper() in hay:
+            return "央视"
+    order = ["体育","卫视","港澳台","影视"]
     for cat in order:
         for kw in cats.get(cat, []):
             if kw.upper() in hay:
@@ -63,6 +67,8 @@ def classify(ch):
     return None
 
 def probe(ch):
+    if ch.get("skip_probe"):
+        return 0
     url = ch["url"]
     if not url.startswith(("http://","https://")):
         return None
@@ -100,7 +106,9 @@ def main():
             continue
         try:
             text = decode_bytes(fetch(src["url"], timeout=12))
-            entries = parse_m3u(text, src["name"], src.get("priority",50))
+            entries = parse_m3u(
+                text, src["name"], src.get("priority",50), src.get("skip_probe",False)
+            )
             source_stats[src["name"]] = {"parsed": len(entries), "error": ""}
             allch.extend(entries)
             print(f'[OK] {src["name"]}: {len(entries)}')
@@ -114,7 +122,8 @@ def main():
             allch.append({
                 "name": ch["name"], "url": ch["url"], "logo": "",
                 "tvg_id": "", "orig_group": ch.get("group","体育"),
-                "source": "dynamic", "priority": 0
+                "source": "dynamic", "priority": 0,
+                "skip_probe": ch.get("skip_probe",False)
             })
 
     filtered = []
