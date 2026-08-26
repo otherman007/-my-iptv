@@ -5,6 +5,27 @@
   "timeout_seconds": 7,
   "sources": [
     {
+      "name": "IPTV-CN 央视",
+      "url": "https://iptv-cn.github.io/IPTV/categories/cctv.m3u",
+      "priority": 5,
+      "enabled": true,
+      "skip_probe": true
+    },
+    {
+      "name": "IPTV-CN 卫视",
+      "url": "https://iptv-cn.github.io/IPTV/categories/%E5%8D%AB%E8%A7%86.m3u",
+      "priority": 6,
+      "enabled": true,
+      "skip_probe": true
+    },
+    {
+      "name": "Free-TV 中国补充",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_china.m3u8",
+      "priority": 7,
+      "enabled": true,
+      "skip_probe": true
+    },
+    {
       "name": "Akira精选频道",
       "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV.m3u",
       "priority": 10,
@@ -86,6 +107,22 @@
     "明珠": "明珠台"
   },
   "dynamic_channels": [
+    {
+      "name": "五星体育",
+      "group": "体育",
+      "url": "http://39.135.253.7/0000000000001001/1/index.m3u8?Contentid=5000000010000017540&livemode=1&stbId=10&channel-id=bestzb",
+      "enabled": true,
+      "skip_probe": true,
+      "note": "中国移动线路；可能受运营商或地区限制。"
+    },
+    {
+      "name": "五星体育",
+      "group": "体育",
+      "url": "http://223.111.117.11/liveplay-kk.rtxapp.com/live/program/live/wxtyhd8m/8000000/mnf.m3u8",
+      "enabled": true,
+      "skip_probe": true,
+      "note": "备用线路；可能受运营商或地区限制。"
+    },
     {
       "name": "纬来体育",
       "group": "体育",
