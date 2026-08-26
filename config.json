@@ -1,0 +1,97 @@
+{
+  "playlist_name": "My IPTV Pro",
+  "epg": "http://epg.51zmt.top:8000/e.xml.gz",
+  "max_sources_per_channel": 2,
+  "timeout_seconds": 7,
+  "sources": [
+    {
+      "name": "Akira精选频道",
+      "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV.m3u",
+      "priority": 10,
+      "enabled": true
+    }
+  ],
+  "custom_sources": [
+    {
+      "name": "我的自定义源",
+      "url": "",
+      "priority": 1,
+      "enabled": false
+    }
+  ],
+  "categories": {
+    "央视": [
+      "CCTV",
+      "CGTN"
+    ],
+    "卫视": [
+      "卫视",
+      "湖南",
+      "东方",
+      "浙江",
+      "江苏",
+      "北京卫视",
+      "广东卫视",
+      "深圳卫视"
+    ],
+    "港澳台": [
+      "凤凰",
+      "TVB",
+      "翡翠",
+      "明珠",
+      "HOY",
+      "香港",
+      "澳门",
+      "TVBS",
+      "中天",
+      "中視",
+      "民視",
+      "三立",
+      "東森",
+      "东森",
+      "纬来"
+    ],
+    "体育": [
+      "体育",
+      "SPORT",
+      "ESPN",
+      "FIFA",
+      "NBA",
+      "NHL",
+      "TENNIS",
+      "BEIN",
+      "RED BULL",
+      "纬来体育",
+      "VL SPORTS"
+    ],
+    "影视": [
+      "HBO",
+      "CINEMAX",
+      "MOVIE",
+      "CINEMA",
+      "电影",
+      "影院",
+      "影视",
+      "LMN"
+    ]
+  },
+  "aliases": {
+    "CCTV1综合": "CCTV-1 综合",
+    "CCTV1": "CCTV-1 综合",
+    "CCTV5体育": "CCTV-5 体育",
+    "CCTV5+": "CCTV-5+ 体育赛事",
+    "凤凰中文台": "凤凰中文",
+    "凤凰资讯台": "凤凰资讯",
+    "翡翠": "翡翠台",
+    "明珠": "明珠台"
+  },
+  "dynamic_channels": [
+    {
+      "name": "纬来体育",
+      "group": "体育",
+      "url": "",
+      "enabled": false,
+      "note": "动态频道。请填入你有权使用的稳定播放地址，或使用自建 IPTV 服务生成的频道地址。"
+    }
+  ]
+}
