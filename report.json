@@ -1,11 +1,11 @@
 {
-  "generated_channels": 132,
+  "generated_channels": 130,
   "counts": {
-    "央视": 41,
-    "卫视": 26,
+    "央视": 39,
+    "卫视": 27,
     "港澳台": 35,
     "体育": 11,
-    "影视": 19
+    "影视": 18
   },
   "source_stats": {
     "IPTV-CN 央视": {
@@ -17,7 +17,7 @@
       "error": ""
     },
     "Free-TV 中国补充": {
-      "parsed": 27,
+      "parsed": 21,
       "error": ""
     },
     "Akira精选频道": {
