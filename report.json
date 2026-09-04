@@ -1,11 +1,11 @@
 {
-  "generated_channels": 131,
+  "generated_channels": 126,
   "counts": {
     "央视": 39,
     "卫视": 27,
-    "港澳台": 35,
+    "港澳台": 33,
     "体育": 11,
-    "影视": 19
+    "影视": 16
   },
   "source_stats": {
     "IPTV-CN 央视": {
