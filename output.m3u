@@ -77,10 +77,12 @@ http://39.135.34.150:8080/000000001000/1000000001000016466/1.m3u8?xtkg
 http://39.135.32.29:6610/000000001000/1000000001000017218/1.m3u8?
 #EXTINF:-1 group-title="央视" x-latency="0ms" tvg-id="CCTV9" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/1/11/CCTV-9_Logo.png",CCTV9 记录
 http://39.135.34.150:8080/000000001000/1000000001000014583/1.m3u8?xtkg
-#EXTINF:-1 group-title="央视" x-latency="449ms",CGTN Documentary
+#EXTINF:-1 group-title="央视" x-latency="556ms",CGTN Documentary
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 group-title="卫视" x-latency="0ms" tvg-id="DongFangWeiShi.satellite" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png",东方卫视
 http://39.135.32.29:6610/000000001000/1000000001000030202/1.m3u8?
+#EXTINF:-1 group-title="卫视" x-latency="1153ms",东方卫视4K · 备用2
+https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 group-title="卫视" x-latency="0ms" tvg-id="YunNanWeiShi.satellite" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png",云南卫视
 https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
 #EXTINF:-1 group-title="卫视" x-latency="0ms" tvg-id="NeiMengGuWeiShi.satellite" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/neimeng.png",内蒙古卫视
@@ -107,7 +109,7 @@ http://39.135.34.150:8080/000000001000/1000000001000013731/1.m3u8?xtkg
 https://jwplay.hebyun.com.cn/live/hbwstv/1500k/tzwj_video.m3u8
 #EXTINF:-1 group-title="卫视" x-latency="0ms" tvg-id="zhejiangstv" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png",浙江卫视
 http://shbu.live.bestvcdn.com.cn:8080/live/program/live/zjwshd/2300000/mnf.m3u8
-#EXTINF:-1 group-title="卫视" x-latency="2990ms",浙江卫视4K · 备用2
+#EXTINF:-1 group-title="卫视" x-latency="950ms",浙江卫视4K · 备用2
 http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
 #EXTINF:-1 group-title="卫视" x-latency="0ms" tvg-id="HaiNanWeiShi.satellite",海南卫视
 http://39.134.24.24/PLTV/88888888/224/3221225614/index.m3u8
@@ -115,7 +117,7 @@ http://39.134.24.24/PLTV/88888888/224/3221225614/index.m3u8
 http://39.135.34.150:8080/000000001000/1000000001000011645/1.m3u8?xtkg
 #EXTINF:-1 group-title="卫视" x-latency="0ms" tvg-id="HuNanWeiShi.satellite" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png",湖南卫视
 http://39.135.34.150:8080/000000001000/1000000001000009115/1.m3u8?xtkg
-#EXTINF:-1 group-title="卫视" x-latency="1029ms",湖南卫视4K · 备用2
+#EXTINF:-1 group-title="卫视" x-latency="1175ms",湖南卫视4K · 备用2
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 group-title="卫视" x-latency="0ms" tvg-id="GanSuWeiShi.satellite" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/gansu.png",甘肃卫视
 http://39.134.39.38/PLTV/88888888/224/3221226240/index.m3u8
@@ -131,55 +133,57 @@ http://39.135.34.150:8080/000000001000/1000000002000018937/1.m3u8?xtkg
 http://live.geermurmt.com/qhws/sd/live.m3u8
 #EXTINF:-1 group-title="卫视" x-latency="0ms" tvg-id="HeiLongJiangWeiShi.satellite" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png",黑龙江卫视
 http://39.135.53.195/ott.fj.chinamobile.com/PLTV/88888888/224/3221225940/1.m3u8
-#EXTINF:-1 group-title="港澳台" x-latency="120ms",TVBS亚洲
+#EXTINF:-1 group-title="港澳台" x-latency="105ms",TVBS亚洲
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 group-title="港澳台" x-latency="759ms",凤凰中文
+#EXTINF:-1 group-title="港澳台" x-latency="632ms",凤凰中文
 http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
-#EXTINF:-1 group-title="港澳台" x-latency="750ms",凤凰资讯
+#EXTINF:-1 group-title="港澳台" x-latency="628ms",凤凰资讯
 http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
-#EXTINF:-1 group-title="港澳台" x-latency="47ms" tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png",凤凰香港
+#EXTINF:-1 group-title="港澳台" x-latency="582ms" tvg-logo="https://epg.112114.xyz/logo/%E5%87%A4%E5%87%B0%E9%A6%99%E6%B8%AF.png",凤凰香港
 https://cdn.qd.je/163189/fhhk
-#EXTINF:-1 group-title="港澳台" x-latency="226ms" tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B0%E5%AD%97%E5%B9%95.png",翡翠台
+#EXTINF:-1 group-title="港澳台" x-latency="964ms",港台电视31
+https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+#EXTINF:-1 group-title="港澳台" x-latency="2152ms" tvg-logo="https://epg.112114.xyz/logo/%E7%BF%A1%E7%BF%A0%E5%8F%B0%E5%AD%97%E5%B9%95.png",翡翠台
 https://cdn3.indevs.in/stream/tvb/fct/
-#EXTINF:-1 group-title="港澳台" x-latency="1287ms",耀才财经
+#EXTINF:-1 group-title="港澳台" x-latency="1223ms",耀才财经
 https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="141ms",ACCDN
+#EXTINF:-1 group-title="体育" x-latency="83ms",ACCDN
 https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="156ms",FIFA+
+#EXTINF:-1 group-title="体育" x-latency="201ms",FIFA+
 https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="186ms",FUEL TV
+#EXTINF:-1 group-title="体育" x-latency="128ms",FUEL TV
 https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
-#EXTINF:-1 group-title="体育" x-latency="196ms",FloRacing
+#EXTINF:-1 group-title="体育" x-latency="95ms",FloRacing
 https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="289ms",MTRSPT1
+#EXTINF:-1 group-title="体育" x-latency="250ms",MTRSPT1
 https://amg02873-kravemedia-mtrspt1-samsungau-2anp4.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-samsungau/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="127ms",NHL FAST
+#EXTINF:-1 group-title="体育" x-latency="145ms",NHL FAST
 https://nhl-firetv.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 group-title="体育" x-latency="181ms",Pac-12 Insider
+#EXTINF:-1 group-title="体育" x-latency="129ms",Pac-12 Insider
 https://pac12-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="228ms",Red Bull TV
+#EXTINF:-1 group-title="体育" x-latency="122ms",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 group-title="体育" x-latency="1479ms",Sky Racing 1
+#EXTINF:-1 group-title="体育" x-latency="1375ms",Sky Racing 1
 https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="1494ms",Sky Racing 2
+#EXTINF:-1 group-title="体育" x-latency="1375ms",Sky Racing 2
 https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="204ms",SportsGrid
+#EXTINF:-1 group-title="体育" x-latency="146ms",SportsGrid
 https://sportsgrid-tribal.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="468ms" tvg-logo="https://i.ibb.co/pBBqvWSK/tennis-channel.png",Tennis Channel International
+#EXTINF:-1 group-title="体育" x-latency="388ms" tvg-logo="https://i.ibb.co/pBBqvWSK/tennis-channel.png",Tennis Channel International
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="387ms",Trace Sport Stars
+#EXTINF:-1 group-title="体育" x-latency="376ms",Trace Sport Stars
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="111ms" tvg-logo="https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/ufc/channels/ufc-domestic400x200.png",UFC 24/7
+#EXTINF:-1 group-title="体育" x-latency="126ms" tvg-logo="https://d1biytugnv36sr.cloudfront.net/resize?width=400&height=200&url=https://static.frequency.com/studio/ufc/channels/ufc-domestic400x200.png",UFC 24/7
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/194a140c-0cf5-443e-b747-08bf621d75a8/0.m3u8
-#EXTINF:-1 group-title="体育" x-latency="227ms",World Poker Tour
+#EXTINF:-1 group-title="体育" x-latency="375ms",World Poker Tour
 https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="216ms",World of Freesports
+#EXTINF:-1 group-title="体育" x-latency="191ms",World of Freesports
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="体育" x-latency="142ms" tvg-logo="https://image.xumo.com/v1/channels/channel/99991387/168x168.png?type=color_onBlack",beIN Sports Xtra
+#EXTINF:-1 group-title="体育" x-latency="284ms" tvg-logo="https://image.xumo.com/v1/channels/channel/99991387/168x168.png?type=color_onBlack",beIN Sports Xtra
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="体育" x-latency="0ms",五星体育
 http://39.135.253.7/0000000000001001/1/index.m3u8?Contentid=5000000010000017540&livemode=1&stbId=10&channel-id=bestzb
 #EXTINF:-1 group-title="体育" x-latency="0ms",五星体育 · 备用2
 http://223.111.117.11/liveplay-kk.rtxapp.com/live/program/live/wxtyhd8m/8000000/mnf.m3u8
-#EXTINF:-1 group-title="影视" x-latency="269ms",MovieSphere
+#EXTINF:-1 group-title="影视" x-latency="415ms",MovieSphere
 https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
