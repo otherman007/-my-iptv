@@ -1,8 +1,8 @@
 {
-  "generated_channels": 80,
+  "generated_channels": 85,
   "counts": {
     "央视": 41,
-    "卫视": 27,
+    "卫视": 32,
     "港澳台": 6,
     "体育": 6
   },
@@ -20,7 +20,7 @@
       "error": ""
     },
     "Akira精选频道": {
-      "parsed": 28,
+      "parsed": 34,
       "error": ""
     }
   },
